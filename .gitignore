@@ -1,0 +1,49 @@
+# Environment Variables (Never commit secrets or API keys)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Databases & local state
+*.db
+*.sqlite
+*.sqlite3
+mailtrace.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv*/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend / Node
+node_modules/
+dist/
+build/
+.npm
+*.tsbuildinfo
+.eslintcache
+
+# Logs & Temporary
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# Demo video
+DemoVideo.mp4
+
+# Local frontend environment/key files
+frontend/.eve.txt

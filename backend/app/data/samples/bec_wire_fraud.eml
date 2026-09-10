@@ -1,0 +1,39 @@
+Received: from outbound.freemail-secure.com (outbound.freemail-secure.com [203.0.113.88])
+	by mx.victim-corp.com with ESMTPS id b552109
+	for <controller@victim-corp.com>;
+	Fri, 04 Sep 2026 10:05:00 +0000
+Authentication-Results: mx.victim-corp.com;
+	dkim=pass header.i=@freemail-secure.com;
+	spf=pass (victim-corp.com: domain of ceo-private-exec@freemail-secure.com designates 203.0.113.88 as permitted sender);
+	dmarc=none
+From: "Robert Smith - Chief Executive Officer" <ceo-private-exec@freemail-secure.com>
+Reply-To: exec-reply-desk@payroll-portal-update.org
+Return-Path: <ceo-private-exec@freemail-secure.com>
+To: controller@victim-corp.com
+Subject: Strictly Confidential: Urgent Wire Transfer Request for Q3 Strategic Acquisition
+Date: Fri, 04 Sep 2026 10:04:15 +0000
+Message-ID: <exec-direct-442189@freemail-secure.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Controller,
+
+I am currently in an all-day executive board session and unable to take phone calls.
+
+We are closing a confidential strategic acquisition this morning and require an immediate wire transfer of $84,500 to our external escrow account before 1:00 PM EST.
+
+Please find the updated bank routing and swift code details below:
+Beneficiary Name: Apex Strategic Holdings Escrow
+Bank: Commercial Trust Bank
+Account: 9481029481
+Routing / SWIFT: CUSTUS33XXX
+
+Please process this vendor payment immediately and send the wire confirmation slip to my personal email desk: exec-reply-desk@payroll-portal-update.org.
+
+Do not discuss this with other department heads until the official press release tomorrow.
+
+Best regards,
+
+Robert Smith
+Chief Executive Officer
+Victim Corp International

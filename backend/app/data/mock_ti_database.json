@@ -1,0 +1,110 @@
+{
+  "ips": {
+    "185.220.101.5": {
+      "reputation_score": 95.0,
+      "is_malicious": true,
+      "abuse_confidence": 98,
+      "country": "DE",
+      "city": "Frankfurt",
+      "latitude": 50.1109,
+      "longitude": 8.6821,
+      "isp": "Tor Exit Node Network",
+      "usage_type": "Data Center / Web Hosting / Transit",
+      "total_reports": 412,
+      "tags": ["Tor", "Proxy", "Brute-Force", "Scanner"]
+    },
+    "194.26.29.112": {
+      "reputation_score": 88.0,
+      "is_malicious": true,
+      "abuse_confidence": 92,
+      "country": "RU",
+      "city": "Moscow",
+      "latitude": 55.7558,
+      "longitude": 37.6173,
+      "isp": "Bulletproof Hosting Services Ltd",
+      "usage_type": "Commercial / Bulletproof",
+      "total_reports": 189,
+      "tags": ["Phishing C2", "Malware Delivery", "Spam Relay"]
+    },
+    "8.8.8.8": {
+      "reputation_score": 0.0,
+      "is_malicious": false,
+      "abuse_confidence": 0,
+      "country": "US",
+      "city": "Mountain View",
+      "latitude": 37.422,
+      "longitude": -122.0841,
+      "isp": "Google LLC",
+      "usage_type": "Public DNS",
+      "total_reports": 0,
+      "tags": ["Anycast", "Public Resolver", "Safe"]
+    },
+    "1.1.1.1": {
+      "reputation_score": 0.0,
+      "is_malicious": false,
+      "abuse_confidence": 0,
+      "country": "US",
+      "city": "San Francisco",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "isp": "Cloudflare, Inc.",
+      "usage_type": "Content Delivery Network",
+      "total_reports": 0,
+      "tags": ["CDN", "Public Resolver", "Safe"]
+    }
+  },
+  "domains": {
+    "micros0ft-security-auth.com": {
+      "reputation_score": 92.0,
+      "is_malicious": true,
+      "categories": ["Phishing", "Credential Harvesting"],
+      "vt_positives": 42,
+      "vt_total": 88,
+      "registrar": "NameCheap Inc",
+      "creation_date": "2026-08-15",
+      "attributed_actor": "Storm-0539 / Phishing Syndicate"
+    },
+    "payroll-portal-update.org": {
+      "reputation_score": 85.0,
+      "is_malicious": true,
+      "categories": ["BEC", "Financial Fraud"],
+      "vt_positives": 31,
+      "vt_total": 88,
+      "registrar": "Porkbun LLC",
+      "creation_date": "2026-08-28",
+      "attributed_actor": "Uncategorized BEC Actor"
+    },
+    "microsoft.com": {
+      "reputation_score": 0.0,
+      "is_malicious": false,
+      "categories": ["Software / Tech"],
+      "vt_positives": 0,
+      "vt_total": 90,
+      "registrar": "MarkMonitor Inc",
+      "creation_date": "1991-05-02"
+    }
+  },
+  "hashes": {
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+      "reputation_score": 0.0,
+      "is_malicious": false,
+      "file_type": "Empty file",
+      "vt_positives": 0
+    },
+    "d41d8cd98f00b204e9800998ecf8427e": {
+      "reputation_score": 0.0,
+      "is_malicious": false,
+      "file_type": "Empty MD5",
+      "vt_positives": 0
+    },
+    "7a2b02e9d3c5bf4f1a66a7b7a1f568a28e937d5c5fbc5b9487b7a8f1e2d3c4b5": {
+      "reputation_score": 96.0,
+      "is_malicious": true,
+      "threat_name": "Trojan.AgentTesla/Variant",
+      "vt_positives": 58,
+      "vt_total": 72,
+      "file_type": "Win32 EXE",
+      "mitre_technique": "T1056.001"
+    }
+  }
+}

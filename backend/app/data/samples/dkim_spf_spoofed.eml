@@ -1,0 +1,29 @@
+Received: from fake-gateway.badactor.net ([185.220.101.5])
+	by mx.receiver-inbox.com with ESMTP id sp991823
+	for <victim@example.com>;
+	Fri, 04 Sep 2026 11:30:00 +0000
+Received: from forged-host ([192.168.1.50])
+	by fake-gateway.badactor.net with SMTP id f88219;
+	Fri, 04 Sep 2026 11:45:00 +0000
+Authentication-Results: mx.receiver-inbox.com;
+	spf=fail (receiver-inbox.com: domain of service@paypal.com does not designate 185.220.101.5 as permitted sender);
+	dkim=fail (bad signature or no key found);
+	dmarc=fail (p=REJECT) header.from=paypal.com
+From: "PayPal Service Notifications" <service@paypal.com>
+Reply-To: claims@paypal-dispute-resolution.xyz
+Return-Path: <spoofed-bounce@bulletproof-servers.org>
+To: victim@example.com
+Subject: [Urgent Notification] Unauthorized Payment of $649.99 Sent from Your PayPal Account
+Date: Fri, 04 Sep 2026 11:29:00 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>PayPal Dispute Department</h2>
+  <p>You sent a payment of <b>$649.99 USD</b> to CryptoExchange International LLC.</p>
+  <p>If you did not authorize this transaction, click below immediately to cancel the charge within 24 hours:</p>
+  <p><a href="http://paypal-dispute-resolution.xyz/auth/cancel-transaction">Cancel Transaction & Open Dispute</a></p>
+</body>
+</html>

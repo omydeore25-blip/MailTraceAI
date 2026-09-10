@@ -1,0 +1,50 @@
+[
+  {
+    "id": "T1566.001",
+    "name": "Spearphishing Attachment",
+    "tactic": "Initial Access",
+    "description": "Adversaries send spearphishing emails with a malicious file attachment to gain execution on victim systems.",
+    "condition_type": "attachment",
+    "risk_boost": 30
+  },
+  {
+    "id": "T1566.002",
+    "name": "Spearphishing Link",
+    "tactic": "Initial Access",
+    "description": "Adversaries send spearphishing emails containing malicious hyperlinks to lure victims into credential harvesting portals or drive-by exploits.",
+    "condition_type": "url",
+    "risk_boost": 25
+  },
+  {
+    "id": "T1598.002",
+    "name": "Phishing for Information: Attachment",
+    "tactic": "Reconnaissance",
+    "description": "Adversaries send attachments specifically crafted to gather credentials, system configurations, or organization rosters.",
+    "condition_type": "credential_attachment",
+    "risk_boost": 20
+  },
+  {
+    "id": "T1598.003",
+    "name": "Phishing for Information: Hyperlink",
+    "tactic": "Reconnaissance",
+    "description": "Adversaries send links to fake login pages or survey portals to elicit sensitive company credentials or 2FA codes.",
+    "condition_type": "credential_url",
+    "risk_boost": 25
+  },
+  {
+    "id": "T1078",
+    "name": "Valid Accounts - Compromised Relay",
+    "tactic": "Defense Evasion",
+    "description": "Adversaries abuse legitimate or compromised mail routing credentials to bypass standard perimeter security filters.",
+    "condition_type": "compromised_relay",
+    "risk_boost": 15
+  },
+  {
+    "id": "T1204.002",
+    "name": "User Execution: Malicious File",
+    "tactic": "Execution",
+    "description": "An adversary relies on the email recipient opening a weaponized document, ISO image, or archive.",
+    "condition_type": "dangerous_extension",
+    "risk_boost": 30
+  }
+]
